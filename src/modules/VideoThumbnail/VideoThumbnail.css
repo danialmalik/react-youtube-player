@@ -1,0 +1,16 @@
+.list {
+    cursor:pointer
+}
+
+.thumbnail.centered{
+    height: 150px;
+}
+
+.thumbnail.centered .card-body, .thumbnail.centered .row {
+    height: 100%;
+}
+
+.thumbnail.centered .thumbnail-image {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+.suggestions {
+    position: absolute;
+    width: 80%;
+    background: white;
+    top: 100%;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+    margin-top :5px;
+    border-radius : 5px;
+    z-index: 99;
+}
+
+.suggestions > li {
+    cursor: pointer;
+    border-bottom: 1px black;
+    border-bottom-color: black;
+}
+
+
+.suggestions > li:hover {
+    background: lightblue;
+}
